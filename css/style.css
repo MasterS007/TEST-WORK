@@ -1,4 +1,11 @@
 
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
 
 img.LOGO 
 {
@@ -16,8 +23,8 @@ img.LOGO
  img.textimg
 {
     position: relative;
-    margin-left: 350px;
-    margin-top: 5px;
+    margin-left: 430px;
+    margin-top: -85px;
     /* width:100%; */
     max-width: 60%;
     height: auto;
@@ -38,10 +45,6 @@ img.LOGO
         margin-left: 30px;
 
     }
-
-    
-
-    
     
 }
 
@@ -98,3 +101,5 @@ img.LOGO
 
     
 }
+
+

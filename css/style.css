@@ -1,9 +1,18 @@
-.secBackground
+.headingText
 {
-    background-color: white;
+    margin-top:120px;
+    
+    color:rgb(29, 108, 212);
+    font-size: 5pc;
+    font-weight: 100;
 }
 
-
+.randomText
+{
+    color:rgb(82, 145, 226);
+    font-size: 16px;
+    font-weight: 500;
+}
 
 .carousel-indicators
 {

@@ -1,4 +1,21 @@
 
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+
+.carousel-control-prev-icon
+{
+   width: 50%;
+}
   
   .item img {
       position: absolute;
@@ -11,7 +28,7 @@ img.LOGO
 {
     position: relative;
     margin-left: 50px;
-    margin-top: 5px;
+    margin-top: 3px;
     
     /* width: 100%; */
     max-width: 150%;
@@ -24,7 +41,7 @@ img.LOGO
 {
     position: relative;
     margin-left: 430px;
-    margin-top: -85px;
+    margin-top: -5px;
     /* width:100%; */
     max-width: 60%;
     height: auto;

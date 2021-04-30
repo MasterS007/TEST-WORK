@@ -1,5 +1,14 @@
-
-
+.input-group.input-group-unstyled input.form-control {
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+            display: none;
+}
+.input-group-unstyled .input-group-addon {
+    border-radius: 4px;
+    border: 0px;
+    background-color: transparent;
+}
 .carousel .carousel-item {
     height: 500px;
   }
@@ -12,11 +21,17 @@
       min-height: 500px;
   }
 
-.carousel-control-prev-icon
-{
-   width: 50%;
-}
-  
+  .carousel-control-prev-icon 
+  {
+      width: 50px;
+      height: 50px;
+  }
+      
+  .carousel-control-next-icon
+  {
+      width: 50px;
+      height: 50px;
+  }
   .item img {
       position: absolute;
       top: 0;
@@ -27,7 +42,7 @@
 img.LOGO 
 {
     position: relative;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 3px;
     
     /* width: 100%; */

@@ -1,3 +1,24 @@
+.slnav .navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+
+    
+}
+
+.nav-item 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+      
+}
+
+.carousel 
+{
+   z-index: -100;
+   transition: 1s opacity;
+}
 .input-group.input-group-unstyled input.form-control {
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;

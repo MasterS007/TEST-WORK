@@ -1,3 +1,67 @@
+
+
+
+.element1, .element2, .element3, .element4, .element5, .element6 {
+
+    width: 200px;
+    height:120px;
+    border-style:solid;
+    border-color: rgb(56, 138, 231);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 25px 28px;
+
+    border-top-right-radius: 5px;
+    clip:rect(20px);
+  }
+ 
+  .element1
+  {
+    margin-top: 25px; 
+  }
+  .element2
+  {
+      margin-left: 250px;
+     margin-top: -125px;
+  }
+
+  .element3
+  {
+     margin-top: 15px;
+  }
+  .element4
+  {
+      margin-left: 250px;
+     margin-top: -123px;
+  }
+  .element5
+  {
+    margin-top: 15px;
+  }
+  .element6
+  {
+      margin-left: 250px;
+     margin-top: -123px;
+  }
+
+
+  .sthtext
+  {
+      margin-left: 20px;
+      margin-top: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color:rgb(56, 138, 231) ;
+  }
+
+  .bi-arrow-right
+  {
+      position: relative;
+      margin-left: 20px;
+      margin-top: 28px;
+      color:rgb(56, 138, 231) ;
+      
+  }
 .headingText
 {
     margin-top:120px;
@@ -133,6 +197,36 @@ img.LOGO
         margin-left: 30px;
 
     }
+    .element1, .element2, .element3, .element4, .element5, .element6 
+    {
+        margin: auto;
+        margin-left:0px;
+        margin-bottom:10px ;
+        height: auto;
+        width: 120px;
+    }
+
+    .sthtext
+    {
+        margin: auto;
+        margin-left:10px;
+        margin-top:10px ;
+        font-size:x-small;
+
+    }
+
+    .headingText
+    {
+        margin: auto;
+        font-size:x-large;
+
+    }
+    .randomText
+    {
+        margin: auto;
+        font-size: x-small;
+    }
+    
     
 }
 

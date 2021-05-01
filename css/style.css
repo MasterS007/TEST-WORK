@@ -1,5 +1,30 @@
 
+.col1
+{
+    margin-top: 120px;
+}
 
+.col2
+{
+    margin-top: -420px;
+    margin-left:450px ;
+}
+.card
+{
+    margin-left: 450px;
+   top: -465px;
+   background-color: rgb(56, 138, 231) ;
+}
+.list-group-item
+{
+    background-color: rgb(56, 138, 231) ;
+}
+.greaterThan 
+{
+    text-decoration: none; 
+    
+    color: whitesmoke;
+}
 
 .element1, .element2, .element3, .element4, .element5, .element6 {
 
@@ -64,7 +89,7 @@
   }
 .headingText
 {
-    margin-top:120px;
+    margin-top: 225px;
     
     color:rgb(29, 108, 212);
     font-size: 5pc;

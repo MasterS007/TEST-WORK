@@ -1,4 +1,10 @@
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+a{
+    text-decoration: none;
+}
 .col1
 {
     margin-top: 120px;
@@ -15,9 +21,25 @@
    top: -465px;
    background-color: rgb(56, 138, 231) ;
 }
-.list-group-item
+.card-header
+{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.list-group-item 
 {
     background-color: rgb(56, 138, 231) ;
+   
+}
+
+.list-group-item a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size:16px ;
+
 }
 .greaterThan 
 {
@@ -253,6 +275,25 @@ img.LOGO
     }
     
     
+    .card
+    {
+        
+        margin: auto;
+        margin-left: -150px;
+        margin-top: 55px;
+        width: -2rem;
+        height: auto;
+    }
+
+    .list-group-item
+    {
+        font-size:x-small ;
+    }
+    .greaterThan 
+    {
+       
+        display:none;
+    }
 }
 
 

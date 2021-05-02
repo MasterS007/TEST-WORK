@@ -271,9 +271,14 @@ img.LOGO
     height: auto;
 }
 
-.row2
+.row2 
 {
     margin-top: -480px;
+}
+
+.row2 .col1
+{
+    position: relative;
 }
 .row2heading
 {
@@ -306,14 +311,28 @@ img.LOGO
     font-weight: bold;
 }
 
+
+
 .row2 .col2
 {
-    margin-top: -420px;
-    margin-left:450px ;
+    position: relative;
+    top: -490px;
+    margin-left:780px ;
+}
+
+.col2heading
+{
+    color:rgb(37, 108, 201);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
 }
 .bi-check-circle
 {
+    position: relative;
+    margin-top: 20px;
     color:rgb(44, 120, 235) ;
+   
 }
 .site-footer
 {

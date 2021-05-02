@@ -301,14 +301,16 @@ img.LOGO
 
 }
 
-.textrow2 .btn
+.row2btn
 {
-    margin-left: -950px;
-    margin-top: 335px;
+    position: relative;
+    padding: 3px 18px 3px 18px;
+    border-radius: 5px;
     background-color: aliceblue;
-    border:aliceblue;
+    border: solid rgb(44, 120, 235);
     color:rgb(44, 120, 235);
-    font-weight: bold;
+    font-weight:600;
+    font-size: small;
 }
 
 
@@ -316,7 +318,7 @@ img.LOGO
 .row2 .col2
 {
     position: relative;
-    top: -490px;
+    top: -140px;
     margin-left:780px ;
 }
 
@@ -333,6 +335,11 @@ img.LOGO
     margin-top: 20px;
     color:rgb(44, 120, 235) ;
    
+}
+
+.row3
+{
+    position: relative;
 }
 .site-footer
 {
@@ -355,8 +362,8 @@ img.LOGO
     width:1600px;
     height:300px;
     top: 1740px;  
-    left:-2px;
-    position: absolute;
+    margin-left: -50px;;
+    /* position: absolute; */
    
 }
 

@@ -9,10 +9,7 @@ html, body {
     display: none;
 }
 
-.container1
-{
-    min-height: 100%;
-}
+
 .main
 {
     overflow: auto;
@@ -196,8 +193,7 @@ a{
 .nav-item 
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-      
+
 }
 
 .carousel 
@@ -344,12 +340,14 @@ img.LOGO
 .site-footer
 {
 
-
-  background-color:rgb(29, 108, 212);
+    
+    background-color:rgb(29, 108, 212);
+    width: 1550px;
   
-  height:550px;
+  /* height: 1000px;; */
   font-size:15px;
-  margin-top: -100px;
+  
+  margin: top 500px;
   margin-left: -10px;
   margin-right: -10px;
   margin-bottom:0;
@@ -359,10 +357,10 @@ img.LOGO
 
 .imageFooter  {
    
-    width:1600px;
+    width:1800px;
     height:300px;
-    top: 1740px;  
-    margin-left: -50px;;
+    margin-top: 100px;  
+    margin-left: -150px;;
     /* position: absolute; */
    
 }
@@ -391,6 +389,7 @@ h6.logohead
 .footer-links
 {
   padding-left:0;
+  align-items:center;
   list-style:none
 }
 
@@ -624,4 +623,8 @@ h6.linktext2
 @media (max-width:767px)
 {
   
+}
+#footerImageId{
+    object-fit: cover;
+    height: 250px;
 }

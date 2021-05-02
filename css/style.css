@@ -1,10 +1,27 @@
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    
+    
   }
+::-webkit-scrollbar{
+    display: none;
+}
+
+.container1
+{
+    min-height: 100%;
+}
+.main
+{
+    overflow: auto;
+    padding-bottom: 100px;
+}
 a{
     text-decoration: none;
 }
+
 .col1
 {
     margin-top: 120px;
@@ -253,6 +270,155 @@ img.LOGO
     max-width: 60%;
     height: auto;
 }
+
+.row2
+{
+    margin-top: -480px;
+}
+.row2heading
+{
+    color:rgb(37, 108, 201);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.row2img
+{
+    margin-top: 25px;
+}
+
+.textrow2
+{
+    margin-top: 30px;
+    color:rgb(82, 145, 226);
+    font-weight: 500;
+
+}
+
+.textrow2 .btn
+{
+    margin-left: -950px;
+    margin-top: 335px;
+    background-color: aliceblue;
+    border:aliceblue;
+    color:rgb(44, 120, 235);
+    font-weight: bold;
+}
+
+.row2 .col2
+{
+    margin-top: -420px;
+    margin-left:450px ;
+}
+.bi-check-circle
+{
+    color:rgb(44, 120, 235) ;
+}
+.site-footer
+{
+
+
+  background-color:rgb(29, 108, 212);
+  
+  height:550px;
+  font-size:15px;
+  margin-top: -100px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom:0;
+  
+  
+}
+
+.imageFooter  {
+   
+    width:1600px;
+    height:300px;
+    top: 1740px;  
+    left:-2px;
+    position: absolute;
+   
+}
+
+h6.logohead
+{
+    position: relative;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fff;
+    font-size:45px;
+    margin-top:180px;
+    margin-left: -285px;;
+    
+}
+.partLogo
+{
+    position: relative;
+    color:#fff;
+    font-size: 45px;
+    top: -68px;
+    margin-left:-114px;
+    font-family:  Arial, sans-serif;
+    font-weight: lighter;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+ h6.linktext1
+{
+
+    position: relative;
+    color:#fff;
+    font-size:16px;
+    margin-top:15px;
+    margin-left:-155px;
+
+  
+}
+h6.linktext2
+{
+    position: relative;
+    color:#fff;
+    font-size:16px;
+    margin-top:85px;
+    margin-left:1005px;
+}
+
+.botThing
+{
+    position: relative;
+    list-style: none;
+    left: -230px;
+    top: 150px;
+    font-weight: bold;
+    padding-right:50px;
+    display: inline;
+    
+    
+}
+
+.footer-links li
+{
+  color:whitesmoke;
+  margin-left:18px ;
+  font-weight: bold;
+}
+
+
+.bottomtext a
+{
+    position: relative;
+    color: whitesmoke;
+     margin:0;
+     top: 150px;
+     font-weight: bold;
+     
+  
+}
 @media (max-width:600px) {
 
     img.textimg{
@@ -406,77 +572,7 @@ img.LOGO
 }
 
 
-.site-footer
-{
-  background-color:rgb(29, 108, 212);
-  margin-left:-110px;
-  font-size:15px;
-}
 
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-
-
-
-.site-footer h6.linktext
-{
-
-    position: relative;
-    color:#fff;
-    font-size:16px;
-    margin-top:55px;
-    margin-left: 20px;
-
-  
-}
-
-h6.logohead
-{
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#fff;
-    font-size:45px;
-    margin-top:55px;
-}
-.partLogo
-{
-    position: relative;
-    color:#fff;
-    font-size: 45px;
-    top: -68px;
-    margin-left:150px;
-    font-family:  Arial, sans-serif;
-    font-weight: lighter;
-}
-
-/* .site-footer a:hover
-{
-  color:#9da4b1;
-  text-decoration:none;
-} */
-.list-group-item .botThing
-{
-    position: relative;
-    margin-left: -70px;
-}
-
-.footer-links li
-{
-  color:whitesmoke;
-  margin-left:18px ;
-  font-weight: bold;
-}
-
-
-.bottomtext a
-{
-    color: whitesmoke;
-     margin:0
-  
-}
 @media (max-width:991px)
 {
   

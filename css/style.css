@@ -257,6 +257,7 @@ a{
       top: 0;
       left: 0;
       min-height: 300px;
+     
   }
 
 img.LOGO 
@@ -937,6 +938,7 @@ img.LOGO
     img.LOGO {
         position: relative;
         margin: auto;
+        object-fit: cover;
         margin-left: 30px;
 
     }
@@ -1192,14 +1194,255 @@ img.LOGO
 
 
 
-@media (max-width:1260px)
+@media screen and (min-width:991px) and (max-width:1200px) 
 {
   
-}
-@media (max-width:767px)
-{
+     
+    .hedingAn
+    {
+        position: relative;
+        top: 5px;
+        left:-45px;
+        font-size: 16px;
+        
+
+    }
+
+    .hedingKon
+    {
+        position: relative;
+        top: 5px;
+        left:-85px;
+        font-size: 16px;
+    }
+
+
+    .linkss1
+    {
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: -65px;
+        
+       
+    }
+
+    .linkss2
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: 2px;
+        
+    }
+
+    .linkss3
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left:2px;
+    }
+    .Anthing
+    {
+        position: relative;
+        margin: auto;
+        top: 25px;
+        margin-left: -105px;
+        font-size:10px;
+        
+    }
+    .KonThing
+    {
+        position: relative;
+        margin: auto;
+        top: 25px;
+        margin-left: -135px;
+        padding: auto;
+        font-size:12px;
+    }
+
+    img.textimg{
+        position: relative;
+        /* margin-left: auto; */
+        left: -255px;
+        max-width: 500px;
+        
+
+    }
+    img.LOGO {
+        position: relative;
+        margin: auto;
+        left: -60px;
+
+    }
+    
+    .row1 .col1{
+        margin-top: 45px;
+        margin-left: -45px;
+    }
+
+    .element1, .element2, .element3, .element4, .element5, .element6 
+    {
+        margin: auto;
+        margin-top: 25px;
+        margin-left:10px;
+        margin-bottom:10px ;
+        height: auto;
+        width: 180px;
+        
+    }
+
+    .sthtext
+    {
+        margin: auto;
+        margin-left:10px;
+        margin-top:10px ;
+        font-size: 15px;;
+
+    }
+
+    
+    .headingText
+    {
+        margin: auto;
+       margin-left: -35px;
+        font-size:42px;
+
+    }
+    .randomText
+    {
+        margin: auto;
+        margin-left: -35px;
+        font-size: 15px;
+    }
+    
+    .row1 .col2
+    {
+        position: relative;
+        margin-top: -560px;
+    }
+    .card1
+    {
+        position: relative;
+        margin: auto;
+        /* margin-left: -40px; */
+        margin-top: 28px;
+        width: 14rem;
+        height: max-content;
+    }
+
+    .card2
+    {  
+        position: relative;
+        margin: auto;
+        /* margin-left: -40px; */
+        width: 14rem;
+        height: max-content;
+        top: -463px;
+        
+    }
+
+    .card3
+    {
+        position: relative;
+        margin: auto;
+    
+        top: -461px;
+        /* margin-left: -40px; */
+        width: 14rem;
+        height: max-content;
+    }
+
+    .card4
+    {
+        position: relative;
+        margin: auto;
+        top: -458px;
+        /* margin-left: -40px; */
+        width: 14rem;
+        height: max-content;
+    }
+
+    .list-group-item
+    {
+        font-size:small ;
+    }
+    .greaterThan 
+    {
+    
+        display:none;
+    }
+
+    .row2 .col1
+    {
+        position: relative;
+        top:250px ;
+    }
+    .row2 .col1 p{
+
+        margin-top: 5px;
+        font-size: 20px;
+
+    }
+
+        .row2btn
+    {
+        
+        padding: 10px 24px 10px 24px;
+        border-radius: 5px;
+        
+    }
+
+    .row2img
+    {
+        margin-top: 18px;
+        width: 600px;
+        height: auto;
+    }
+
+    .row2heading
+    {
+        
+        font-size:42px;
+    }
+
   
+    .row2 .col2
+    {
+        
+        margin:auto;
+        margin-top: 480px;
+        margin-left: -45px;
+        
+
+        
+    }
+
+    
+      
+    .row2 .col2 h6
+    {
+        font-size: 28px;
+    }
+
+    h6.col2heading
+    {
+        font-size: 35px;
+    }
+
+    .row2 .col2 p
+    {
+        font-size: 18px;
+        margin: auto;
+        
+    }
+    
+    
 }
+
 /* .list-group-item a.botThing
 {
   padding-left:0;
@@ -1214,10 +1457,6 @@ img.LOGO
 
 
 
-@media (max-width:767px)
-{
-  
-}
 #footerImageId{
     object-fit: cover;
     height: 250px;

@@ -348,7 +348,7 @@ img.LOGO
    
 }
 
-@media (max-width:535px)
+@media screen and (max-width:535px)
 {
 
    
@@ -515,12 +515,12 @@ img.LOGO
 
     .linkss3
     {
-        
         position: relative;
         top: 20px;
         font-size:10px;
         margin-left:2px;
     }
+
     .Anthing
     {
         position: relative;
@@ -539,6 +539,7 @@ img.LOGO
         padding: auto;
         font-size:10px;
     }
+    
     .botlikha
     {
         position: relative;
@@ -546,13 +547,13 @@ img.LOGO
         top: 2px;
         font-size: 12px;
     }
+
+
     .row2 .col1
     {
         position: relative;
         top:-65px;
     }
-
-    
 
     .row2 .col2
     {
@@ -560,9 +561,9 @@ img.LOGO
         top: -60px;
         margin:auto;
         margin-top: 10px;
-
-        
     }
+
+
     .row2 .col2 h6
     {
         font-size: 18px;
@@ -572,7 +573,6 @@ img.LOGO
 
         margin-top: -25px;
         font-size: 12px;
-
     }
 
     .row2img
@@ -947,9 +947,10 @@ img.LOGO
 @media screen and (min-width:771px) and (max-width:990px) {
 
     
+  
     .row1 .col2
     {
-        margin-top: -500px;
+        margin-top: -530px;
     }
 
     .card1
@@ -958,7 +959,6 @@ img.LOGO
         margin: auto;
         /* margin-left: -40px; */
         margin-top: 28px;
-        
         width: 14rem;
         height: max-content;
     }
@@ -995,67 +995,74 @@ img.LOGO
         height: max-content;
     }
 
-        .list-group-item
-        {
-            font-size:x-small ;
-        }
-        .greaterThan 
-        {
-        
-            display:none;
-        }
-    
-
-    .row2 .col1
+    .list-group-item
     {
-        margin-top: 55px;
+        font-size:x-small ;
+    }
+    .greaterThan 
+    {
+    
+        display:none;
     }
 
-    
 
     .row2 .col2
     {
         
         margin:auto;
-        margin-top: 550px;
+        margin-top: 380px;
 
         
     }
     .row2 .col2 h6
     {
-        font-size: 18px;
+        font-size: 28px;
     }
 
+    .row2 .col1
+    {
+        position: relative;
+        top:180px ;
+    }
     .row2 .col1 p{
 
-        margin-top: -25px;
-        font-size: 12px;
+        margin-top: 5px;
+        font-size: 20px;
 
+    }
+
+        .row2btn
+    {
+        
+        padding: 10px 24px 10px 24px;
+        border-radius: 5px;
+        
     }
 
     .row2img
     {
-        margin-top: -4px;
-        width: 300px;
+        margin-top: 18px;
+        width: 500px;
         height: auto;
     }
 
     .row2heading
     {
         
-        font-size:20px;
+        font-size:32px;
     }
 
     .col2heading
     {
         margin: auto;
-        font-size:20px;
+        
         margin-left: 15px;
+        font-size:  40px;
     }
 
     .row2 .col2 p
     {
-        font-size: 12px;
+        font-size: 18px;
         margin: auto;
         
     }

@@ -5,6 +5,12 @@ html, body {
     
     
   }
+
+
+ .navbar-toggler-icon
+ {
+     margin-left: 10px;
+ }
 ::-webkit-scrollbar{
     display: none;
 }
@@ -35,6 +41,9 @@ a{
     margin-left: 450px;
     top: -465px;
     background-color: rgb(56, 138, 231) ;
+    width: 18rem;
+    height: max-content;
+
 }
 
 .card2
@@ -43,6 +52,8 @@ a{
     margin-left: 450px;
     top: -463px;
     background-color: rgb(56, 138, 231) ;
+    width: 18rem;
+    height: max-content;
 }
 
 .card3
@@ -51,6 +62,8 @@ a{
     margin-left: 450px;
     top: -461px;
     background-color: rgb(56, 138, 231) ;
+    width: 18rem;
+    height: max-content;
 }
 
 .card4
@@ -59,6 +72,8 @@ a{
     margin-left: 450px;
     top: -458px;
     background-color: rgb(56, 138, 231) ;
+    width: 18rem;
+    height: max-content;
 }
 .card-header
 {
@@ -333,118 +348,260 @@ img.LOGO
    
 }
 
-.row3
-{
-    position: relative;
-}
-.site-footer
+@media (max-width:535px)
 {
 
-    
-    background-color:rgb(29, 108, 212);
-    width: 1550px;
-  
-  /* height: 1000px;; */
-  font-size:15px;
-  
-  margin: top 500px;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom:0;
-  
-  
-}
-
-.imageFooter  {
    
-    width:1800px;
-    height:300px;
-    margin-top: 100px;  
-    margin-left: -150px;;
-    /* position: absolute; */
-   
-}
 
-h6.logohead
-{
-    position: relative;
+    .row2 .col1
+    {
+        position: relative;
+        margin-top:130px;
+        margin-left: 25px;
+    }
+    .row2 .col2
+    {
+        position: relative;
+        margin-left: 35px;
+    }
+
+    .row1 .col1
+    {
+        position: relative;
+        top:-100px;
+        
+    }
+
     
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#fff;
-    font-size:45px;
-    margin-top:180px;
-    margin-left: -285px;;
+    .element1, .element2, .element3, .element4, .element5, .element6 
+    {
+        position: relative;
+        margin: auto;
+        margin-top: 18px;
+        left:20px;
+        margin-bottom:10px ;
+        height: auto;
+        width: 120px;
+        
+    }
+
+    .sthtext
+    {
+        margin: auto;
+        margin-left:10px;
+        margin-top:10px ;
+        font-size:x-small;
+
+    }
+
+
+    .headingText
+    {
+        margin: auto;
+        margin-left: 25px;
+        font-size:xx-large;
+
+    }
+    .randomText
+    {
+        position: relative;
+        margin: auto;
+        left:20px;
+        font-size: 12px;
+    }
+    .row1 .col2{
+        margin: auto;
+        margin-top: -180px;
+        margin-left: 320px;
+    }
+         
     
-}
-.partLogo
-{
-    position: relative;
-    color:#fff;
-    font-size: 45px;
-    top: -68px;
-    margin-left:-114px;
-    font-family:  Arial, sans-serif;
-    font-weight: lighter;
-}
-.footer-links
-{
-  padding-left:0;
-  align-items:center;
-  list-style:none
+    .list-group-item
+        {
+            font-size:x-small ;
+        }
+        .greaterThan 
+        {
+        
+            display:none;
+        }
+
+
+        .linkss1
+    {
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        left:60px;
+        
+       
+    }
+
+    .linkss2
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        left: 60px;
+        
+    }
+
+    .linkss3
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        left:15px;
+    }
+
 }
 
- h6.linktext1
-{
 
-    position: relative;
-    color:#fff;
-    font-size:16px;
-    margin-top:15px;
-    margin-left:-155px;
+@media screen and (max-width:600px) {
 
-  
-}
-h6.linktext2
-{
-    position: relative;
-    color:#fff;
-    font-size:16px;
-    margin-top:85px;
-    margin-left:1005px;
-}
+   span.logoText
+    {
+        position: relative;
+        font-size:10px;
+        margin-left:-25px;
+        
+    }
+    span.logoText2
+    {
+        position: relative;
+        font-size: 10px;;
+        margin-left:-5px ;
+    }
+    .hedingAn
+    {
+        position: relative;
+        top: 5px;
+        left:-45px;
+        font-size: 12px;
+        
 
-.botThing
-{
-    position: relative;
-    list-style: none;
-    left: -230px;
-    top: 150px;
-    font-weight: bold;
-    padding-right:50px;
-    display: inline;
+    }
+
+    .hedingKon
+    {
+        position: relative;
+        top: 5px;
+        left:-25px;
+        font-size: 12px;
+    }
+
+
+    .linkss1
+    {
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: -65px;
+        
+       
+    }
+
+    .linkss2
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: 2px;
+        
+    }
+
+    .linkss3
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left:2px;
+    }
+    .Anthing
+    {
+        position: relative;
+        margin: auto;
+        top: 25px;
+        margin-left: -105px;
+        font-size:x-small;
+        
+    }
+    .KonThing
+    {
+        position: relative;
+        margin: auto;
+        top: 25px;
+        margin-left: -75px;
+        padding: auto;
+        font-size:10px;
+    }
+    .botlikha
+    {
+        position: relative;
+        left: -25px;
+        top: 2px;
+        font-size: 12px;
+    }
+    .row2 .col1
+    {
+        position: relative;
+        top:-65px;
+    }
+
     
-    
-}
 
-.footer-links li
-{
-  color:whitesmoke;
-  margin-left:18px ;
-  font-weight: bold;
-}
+    .row2 .col2
+    {
+        position: relative;
+        top: -60px;
+        margin:auto;
+        margin-top: 10px;
 
+        
+    }
+    .row2 .col2 h6
+    {
+        font-size: 18px;
+    }
 
-.bottomtext a
-{
-    position: relative;
-    color: whitesmoke;
-     margin:0;
-     top: 150px;
-     font-weight: bold;
-     
-  
-}
-@media (max-width:600px) {
+    .row2 .col1 p{
+
+        margin-top: -25px;
+        font-size: 12px;
+
+    }
+
+    .row2img
+    {
+        margin-top: -4px;
+        width: 300px;
+        height: auto;
+    }
+
+    .row2heading
+    {
+        
+        font-size:20px;
+    }
+
+    .col2heading
+    {
+        margin: auto;
+        font-size:20px;
+        margin-left: 15px;
+    }
+
+    .row2 .col2 p
+    {
+        font-size: 12px;
+        margin: auto;
+        
+    }
+
 
     img.textimg{
         position: relative;
@@ -463,10 +620,12 @@ h6.linktext2
     .element1, .element2, .element3, .element4, .element5, .element6 
     {
         margin: auto;
-        margin-left:0px;
+        margin-top: 18px;
+        margin-left:30px;
         margin-bottom:10px ;
         height: auto;
         width: 120px;
+        
     }
 
     .sthtext
@@ -481,13 +640,14 @@ h6.linktext2
     .headingText
     {
         margin: auto;
-        font-size:x-large;
+        font-size:xx-large;
 
     }
     .randomText
     {
         margin: auto;
-        font-size: x-small;
+        margin-left: -20px;
+        font-size: 12px;
     }
     
     
@@ -495,73 +655,279 @@ h6.linktext2
     {
         position: relative;
         margin: auto;
-        margin-left: -130px;
-        margin-top: 55px;
-        width: -2rem;
-        height: auto;
+        margin-left: -90px;
+        margin-top: 28px;
+        
+        width: 10rem;
+        height: max-content;
     }
 
     .card2
-{  
-    position: relative;
-    margin: auto;
-    margin-left: -130px;
-    top: -463px;
-    width: -2rem;
-    height: auto;
-}
-
-.card3
-{
-    position: relative;
-    margin: auto;
-    margin-left: -130px;
-    top: -461px;
-    width: -2rem;
-    height: auto;
-}
-
-.card4
-{
-    position: relative;
-    margin: auto;
-    margin-left: -130px;
-    top: -458px;
-    width: -2rem;
-    height: auto;
-}
-
-    .list-group-item
-    {
-        font-size:x-small ;
+    {  
+        position: relative;
+        margin: auto;
+        margin-left: -90px;
+        width: 10rem;
+        height: max-content;
+        top: -463px;
+        
     }
-    .greaterThan 
+
+    .card3
     {
+        position: relative;
+        margin: auto;
+        top: -461px;
+        margin-left: -90px;
+        width: 10rem;
+        height: max-content;
+    }
+
+    .card4
+    {
+        position: relative;
+        margin: auto;
+        top: -458px;
+        margin-left: -90px;
+        width: 10rem;
+        height: max-content;
+    }
+
+        .list-group-item
+        {
+            font-size:x-small ;
+        }
+        .greaterThan 
+        {
+        
+            display:none;
+        }
+}
+
+
+    
+
+@media screen and (min-width:601px )and (max-width:770px) {
+
+    .hedingAn
+    {
+        position: relative;
+        top: 5px;
+        left:-45px;
+        font-size: 16px;
+        
+
+    }
+
+    .hedingKon
+    {
+        position: relative;
+        top: 5px;
+        left:-25px;
+        font-size: 16px;
+    }
+
+
+    .linkss1
+    {
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: -65px;
+        
        
-        display:none;
     }
-}
 
+    .linkss2
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: 2px;
+        
+    }
 
-@media (max-width:750px) {
-
-    img.textimg{
+    .linkss3
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left:2px;
+    }
+    .Anthing
+    {
         position: relative;
         margin: auto;
-        margin-left: 50px;
-
+        top: 25px;
+        margin-left: -105px;
+        font-size:12px;
+        
     }
-    img.LOGO {
+    .KonThing
+    {
         position: relative;
         margin: auto;
-        margin-left:80px;
+        top: 25px;
+        margin-left: -75px;
+        padding: auto;
+        font-size:12px;
+    }
 
+    .element1, .element2, .element3, .element4, .element5, .element6 
+    {
+        margin: auto;
+        margin-top: 25px;
+        margin-left:30px;
+        margin-bottom:10px ;
+        height: auto;
+        width: 180px;
+        
+    }
+
+    .sthtext
+    {
+        margin: auto;
+        margin-left:10px;
+        margin-top:10px ;
+        font-size: 15px;;
+
+    }
+
+    .row1 .col1{
+        margin-top: 45px;
+        margin-left: -15px;
+    }
+    .headingText
+    {
+        margin: auto;
+       margin-left: -35px;
+        font-size:38px;
+
+    }
+    .randomText
+    {
+        margin: auto;
+        margin-left: -35px;
+        font-size: 14px;
     }
 
     
-}
+   
+    .row2 .col1
+    {
+        position: relative;
+        top:55px;
+    }
 
-@media (max-width:800px) {
+    
+
+    .row2 .col2
+    {
+        
+        margin:auto;
+        margin-top: 250px;
+
+        
+    }
+    .row2 .col2 h6
+    {
+        font-size: 18px;
+    }
+
+    .row2 .col1 p{
+
+        margin-top: -25px;
+        font-size: 12px;
+
+    }
+
+    .row2img
+    {
+        margin-top: -4px;
+        width: 300px;
+        height: auto;
+    }
+
+    .row2heading
+    {
+        
+        font-size:20px;
+    }
+
+    .col2heading
+    {
+        margin: auto;
+        font-size:20px;
+        margin-left: 15px;
+    }
+
+    .row2 .col2 p
+    {
+        font-size: 12px;
+        margin: auto;
+        
+    }
+
+    .row1 .col2
+    {
+        margin-top: -500px;
+    }
+    
+    .card1
+    {
+        position: relative;
+        margin: auto;
+        margin-left: -40px;
+        margin-top: 28px;
+        
+        width: 10rem;
+        height: max-content;
+    }
+
+    .card2
+    {  
+        position: relative;
+        margin: auto;
+        margin-left: -40px;
+        width: 10rem;
+        height: max-content;
+        top: -463px;
+        
+    }
+
+    .card3
+    {
+        position: relative;
+        margin: auto;
+    
+        top: -461px;
+        margin-left: -40px;
+        width: 10rem;
+        height: max-content;
+    }
+
+    .card4
+    {
+        position: relative;
+        margin: auto;
+        top: -458px;
+        margin-left: -40px;
+        width: 10rem;
+        height: max-content;
+    }
+
+        .list-group-item
+        {
+            font-size:x-small ;
+        }
+        .greaterThan 
+        {
+        
+            display:none;
+        }
+    
 
     img.textimg{
         position: relative;
@@ -578,7 +944,228 @@ h6.linktext2
     
 }
 
-@media (max-width:990px) {
+@media screen and (min-width:771px) and (max-width:990px) {
+
+    
+    .row1 .col2
+    {
+        margin-top: -500px;
+    }
+
+    .card1
+    {
+        position: relative;
+        margin: auto;
+        /* margin-left: -40px; */
+        margin-top: 28px;
+        
+        width: 14rem;
+        height: max-content;
+    }
+
+    .card2
+    {  
+        position: relative;
+        margin: auto;
+        /* margin-left: -40px; */
+        width: 14rem;
+        height: max-content;
+        top: -463px;
+        
+    }
+
+    .card3
+    {
+        position: relative;
+        margin: auto;
+    
+        top: -461px;
+        /* margin-left: -40px; */
+        width: 14rem;
+        height: max-content;
+    }
+
+    .card4
+    {
+        position: relative;
+        margin: auto;
+        top: -458px;
+        /* margin-left: -40px; */
+        width: 14rem;
+        height: max-content;
+    }
+
+        .list-group-item
+        {
+            font-size:x-small ;
+        }
+        .greaterThan 
+        {
+        
+            display:none;
+        }
+    
+
+    .row2 .col1
+    {
+        margin-top: 55px;
+    }
+
+    
+
+    .row2 .col2
+    {
+        
+        margin:auto;
+        margin-top: 550px;
+
+        
+    }
+    .row2 .col2 h6
+    {
+        font-size: 18px;
+    }
+
+    .row2 .col1 p{
+
+        margin-top: -25px;
+        font-size: 12px;
+
+    }
+
+    .row2img
+    {
+        margin-top: -4px;
+        width: 300px;
+        height: auto;
+    }
+
+    .row2heading
+    {
+        
+        font-size:20px;
+    }
+
+    .col2heading
+    {
+        margin: auto;
+        font-size:20px;
+        margin-left: 15px;
+    }
+
+    .row2 .col2 p
+    {
+        font-size: 12px;
+        margin: auto;
+        
+    }
+
+   
+    .hedingAn
+    {
+        position: relative;
+        top: 5px;
+        left:-45px;
+        font-size: 16px;
+        
+
+    }
+
+    .hedingKon
+    {
+        position: relative;
+        top: 5px;
+        left:-25px;
+        font-size: 16px;
+    }
+
+
+    .linkss1
+    {
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: -65px;
+        
+       
+    }
+
+    .linkss2
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left: 2px;
+        
+    }
+
+    .linkss3
+    {
+        
+        position: relative;
+        top: 20px;
+        font-size:10px;
+        margin-left:2px;
+    }
+    .Anthing
+    {
+        position: relative;
+        margin: auto;
+        top: 25px;
+        margin-left: -105px;
+        font-size:12px;
+        
+    }
+    .KonThing
+    {
+        position: relative;
+        margin: auto;
+        top: 25px;
+        margin-left: -75px;
+        padding: auto;
+        font-size:12px;
+    }
+
+    .row1 .col1{
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+
+    .element1, .element2, .element3, .element4, .element5, .element6 
+    {
+        margin: auto;
+        margin-top: 25px;
+        margin-left:10px;
+        margin-bottom:10px ;
+        height: auto;
+        width: 180px;
+        
+    }
+
+    .sthtext
+    {
+        margin: auto;
+        margin-left:10px;
+        margin-top:10px ;
+        font-size: 15px;;
+
+    }
+
+    
+    .headingText
+    {
+        margin: auto;
+       margin-left: -35px;
+        font-size:38px;
+
+    }
+    .randomText
+    {
+        margin: auto;
+        margin-left: -35px;
+        font-size: 14px;
+    }
 
     img.textimg{
         position: relative;
@@ -598,7 +1185,7 @@ h6.linktext2
 
 
 
-@media (max-width:991px)
+@media (max-width:1260px)
 {
   
 }

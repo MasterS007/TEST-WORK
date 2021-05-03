@@ -6,6 +6,27 @@ html, body {
     
   }
 
+  .my-carousel
+  {
+      margin-top: -80px;
+  }
+
+/* 
+  .carousel
+  {
+      position: relative;
+      z-index:1;
+  }
+ .mnavr
+ {
+    position:fixed;
+    width:100%;
+    background-color:#fff;
+    z-index:10;
+    border-radius:0;
+    border-color:transparent;
+ }
+ */
 
  .navbar-toggler-icon
  {
@@ -258,6 +279,12 @@ a{
       left: 0;
       min-height: 300px;
      
+  }
+
+  
+  .my-carousel
+  {
+     margin-top: -450px;
   }
 
 img.LOGO 
@@ -779,11 +806,11 @@ img.LOGO
     .element1, .element2, .element3, .element4, .element5, .element6 
     {
         margin: auto;
-        margin-top: 25px;
+        margin-top: 22px;
         margin-left:30px;
         margin-bottom:10px ;
         height: auto;
-        width: 180px;
+        width: 120px;
         
     }
 
@@ -792,7 +819,7 @@ img.LOGO
         margin: auto;
         margin-left:10px;
         margin-top:10px ;
-        font-size: 15px;;
+        font-size: 10px;;
 
     }
 
@@ -800,82 +827,77 @@ img.LOGO
         margin-top: 45px;
         margin-left: -15px;
     }
+
     .headingText
     {
         margin: auto;
-       margin-left: -35px;
-        font-size:38px;
+        margin-left: -15px;
+        font-size:28px;
 
     }
     .randomText
     {
         margin: auto;
-        margin-left: -35px;
-        font-size: 14px;
+        margin-left: -15px;
+        font-size: 12px;
     }
 
-    
+     .row1 .col2
+    {
+        margin-top: -500px;
+        margin-left: 430px;
+    }
    
     .row2 .col1
     {
         position: relative;
-        top:55px;
+        top:95px;
     }
 
-    
 
     .row2 .col2
-    {
-        
-        margin:auto;
-        margin-top: 250px;
-
-        
+    {   margin:auto;
+        margin-top: 280px;
     }
     .row2 .col2 h6
     {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .row2 .col1 p{
 
-        margin-top: -25px;
-        font-size: 12px;
+        margin-top: -15px;
+        font-size: 14px;
 
     }
 
     .row2img
     {
         margin-top: -4px;
-        width: 300px;
+        width: 400px;
         height: auto;
     }
 
     .row2heading
     {
         
-        font-size:20px;
+        font-size:25px;
     }
 
-    .col2heading
+    h6.col2heading
     {
         margin: auto;
-        font-size:20px;
+        font-size:25px;
         margin-left: 15px;
     }
 
     .row2 .col2 p
     {
-        font-size: 12px;
+        font-size: 14px;
         margin: auto;
         
     }
-
-    .row1 .col2
-    {
-        margin-top: -500px;
-    }
-    
+   
     .card1
     {
         position: relative;

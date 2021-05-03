@@ -6,10 +6,10 @@ html, body {
     
   }
 
-  .my-carousel
+  /* .my-carousel
   {
-      margin-top: -80px;
-  }
+      margin-top: 310px;
+  } */
 
 /* 
   .carousel
@@ -42,6 +42,7 @@ html, body {
     overflow: auto;
     padding-bottom: 100px;
 }
+
 a{
     text-decoration: none;
 }
@@ -213,7 +214,6 @@ a{
     width:100%;
     z-index:10;
     max-width:100%;
-
     color:aliceblue;
 }
 .btn
@@ -282,23 +282,18 @@ a{
   }
 
   
-  .my-carousel
-  {
-     margin-top: -450px;
-  }
+    img.LOGO 
+    {
+        position: relative;
+        margin-left: 30px;
+        margin-top: 3px;
+        
+        /* width: 100%; */
+        max-width: 150%;
+        height: auto;
+        
 
-img.LOGO 
-{
-    position: relative;
-    margin-left: 30px;
-    margin-top: 3px;
-    
-    /* width: 100%; */
-    max-width: 150%;
-    height: auto;
-    
-
-}
+    }
 
  img.textimg
 {
@@ -1469,17 +1464,40 @@ img.LOGO
     
 }
 
-/* .list-group-item a.botThing
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-} */
-/* .list-group-item a.botThing
-{
-  display:inline-block;
-  margin-bottom:4px
-} */
+@media screen and (min-width:1201px)and (max-width:1300px) {
+    
+    
+
+    .my-carousel
+    {
+        margin-top: -80px;
+    }
+    .row1 .col2{
+        margin-left:400px;
+        margin-top:-580px;
+    }
+    .row1 .col1{
+        margin-top:-5px;
+    }
+
+    
+    
+
+}
+
+@media screen and (min-width:1301px)and (max-width:1440px) {
+    
+    
+
+    .slnav.navbar
+    {
+        margin-left:2px;
+    }
+
+    
+    
+
+}
 
 
 

@@ -1417,8 +1417,6 @@ img.LOGO
         margin-top: 480px;
         margin-left: -45px;
         
-
-        
     }
 
     
@@ -1460,4 +1458,5 @@ img.LOGO
 #footerImageId{
     object-fit: cover;
     height: 250px;
+    width: 100%;
 }

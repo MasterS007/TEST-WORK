@@ -737,6 +737,8 @@ img.LOGO
 
 @media screen and (min-width:601px )and (max-width:770px) {
 
+
+    
     .hedingAn
     {
         position: relative;
@@ -905,7 +907,7 @@ img.LOGO
         margin-left: -40px;
         margin-top: 28px;
         
-        width: 10rem;
+        width: 12rem;
         height: max-content;
     }
 
@@ -914,7 +916,7 @@ img.LOGO
         position: relative;
         margin: auto;
         margin-left: -40px;
-        width: 10rem;
+        width: 12rem;
         height: max-content;
         top: -463px;
         
@@ -927,7 +929,7 @@ img.LOGO
     
         top: -461px;
         margin-left: -40px;
-        width: 10rem;
+        width: 12rem;
         height: max-content;
     }
 
@@ -937,7 +939,7 @@ img.LOGO
         margin: auto;
         top: -458px;
         margin-left: -40px;
-        width: 10rem;
+        width: 12rem;
         height: max-content;
     }
 
@@ -1219,6 +1221,11 @@ img.LOGO
 @media screen and (min-width:991px) and (max-width:1200px) 
 {
   
+    .my-carousel
+    {
+        margin-top: -80px;
+    }
+
      
     .hedingAn
     {
@@ -1226,8 +1233,6 @@ img.LOGO
         top: 5px;
         left:-45px;
         font-size: 16px;
-        
-
     }
 
     .hedingKon
@@ -1289,7 +1294,7 @@ img.LOGO
     img.textimg{
         position: relative;
         /* margin-left: auto; */
-        left: -255px;
+        left: -105px;
         max-width: 500px;
         
 
@@ -1297,7 +1302,9 @@ img.LOGO
     img.LOGO {
         position: relative;
         margin: auto;
-        left: -60px;
+        /* left: 480px; */
+        margin-left: 60px;
+        width: 800px;
 
     }
     
@@ -1310,7 +1317,7 @@ img.LOGO
     {
         margin: auto;
         margin-top: 25px;
-        margin-left:10px;
+        margin-left:35px;
         margin-bottom:10px ;
         height: auto;
         width: 180px;
@@ -1330,14 +1337,14 @@ img.LOGO
     .headingText
     {
         margin: auto;
-       margin-left: -35px;
+        margin-left: 25px;
         font-size:42px;
 
     }
     .randomText
     {
         margin: auto;
-        margin-left: -35px;
+        margin-left: 25px;
         font-size: 15px;
     }
     
@@ -1402,15 +1409,17 @@ img.LOGO
     {
         position: relative;
         top:250px ;
+        margin-left:185px
     }
-    .row2 .col1 p{
+    .row2 .col1 p
+    {
 
         margin-top: 5px;
         font-size: 20px;
 
     }
 
-        .row2btn
+    .row2btn
     {
         
         padding: 10px 24px 10px 24px;
@@ -1431,18 +1440,15 @@ img.LOGO
         font-size:42px;
     }
 
-  
     .row2 .col2
     {
         
         margin:auto;
         margin-top: 480px;
-        margin-left: -45px;
+        margin-left: 85px;
         
     }
-
     
-      
     .row2 .col2 h6
     {
         font-size: 28px;

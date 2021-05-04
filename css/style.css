@@ -427,36 +427,10 @@ a{
     }
 
 
-    
-    /* .row2 .col1
-    {
-        position: relative;
-        margin-top:130px;
-        margin-left:25px;
-    }
-    .row2 .col2
-    {
-        position: relative;
-        margin-left: 35px;
-    } */
-    
-    /* .headingText
-    {
-        margin: auto;
-        margin-left: 25px;
-        font-size:xx-large;
 
-    }
-    .randomText
-    {
-        position: relative;
-        margin: auto;
-        left:20px;
-        font-size: 12px;
-    } */
     .row1 .col2{
         margin: auto;
-        margin-top: 180px;
+        margin-top: 150px;
         margin-left:200px;
     }
          
@@ -474,6 +448,36 @@ a{
         
             display:none;
         }
+
+         .row2 .col1
+    {
+        position: relative;
+        margin-top:125px;
+        margin-left:45px;
+    }
+
+     
+    .headingText
+    {
+        margin: auto;
+        margin-left: 25px;
+        font-size:xx-large;
+
+    }
+    .randomText
+    {
+        position: relative;
+        margin: auto;
+        left:20px;
+        font-size: 12px;
+    }
+    .row2 .col2
+    {
+        position: relative;
+        left: 55px;
+        margin: auto;
+        margin-top:10px;
+    }
 
 
         .linkss1

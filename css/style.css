@@ -6,27 +6,6 @@ html, body {
     
   }
 
-  /* .my-carousel
-  {
-      margin-top: 310px;
-  } */
-
-/* 
-  .carousel
-  {
-      position: relative;
-      z-index:1;
-  }
- .mnavr
- {
-    position:fixed;
-    width:100%;
-    background-color:#fff;
-    z-index:10;
-    border-radius:0;
-    border-color:transparent;
- }
- */
 
  .navbar-toggler-icon
  {
@@ -185,6 +164,7 @@ a{
       color:rgb(56, 138, 231) ;
       
   }
+
 .headingText
 {
     margin-top: 225px;
@@ -210,6 +190,7 @@ a{
 
 
 .slnav .navbar{
+    
     position:absolute;
     width:100%;
     z-index:10;
@@ -295,98 +276,84 @@ a{
 
     }
 
- img.textimg
-{
-    position: relative;
-    margin-left: 430px;
-    margin-top: -5px;
-    /* width:100%; */
-    max-width: 60%;
-    height: auto;
-}
-
-.row2 
-{
-    margin-top: -480px;
-}
-
-.row2 .col1
-{
-    position: relative;
-}
-.row2heading
-{
-    color:rgb(37, 108, 201);
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.row2img
-{
-    margin-top: 25px;
-}
-
-.textrow2
-{
-    margin-top: 30px;
-    color:rgb(82, 145, 226);
-    font-weight: 500;
-
-}
-
-.row2btn
-{
-    position: relative;
-    padding: 3px 18px 3px 18px;
-    border-radius: 5px;
-    background-color: aliceblue;
-    border: solid rgb(44, 120, 235);
-    color:rgb(44, 120, 235);
-    font-weight:600;
-    font-size: small;
-}
-
-
-
-.row2 .col2
-{
-    position: relative;
-    top: -140px;
-    margin-left:780px ;
-}
-
-.col2heading
-{
-    color:rgb(37, 108, 201);
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-}
-.bi-check-circle
-{
-    position: relative;
-    margin-top: 20px;
-    color:rgb(44, 120, 235) ;
-   
-}
-
-@media screen and (max-width:535px)
-{
-
-   
+    img.textimg
+    {
+        position: relative;
+        margin-left: 430px;
+        margin-top: -5px;
+        /* width:100%; */
+        max-width: 60%;
+        height: auto;
+    }
+ 
+    .row2 
+    {
+        margin-top: -480px;
+    }
 
     .row2 .col1
     {
         position: relative;
-        margin-top:130px;
-        margin-left: 25px;
     }
+    .row2heading
+    {
+        color:rgb(37, 108, 201);
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .row2img
+    {
+        margin-top: 25px;
+    }
+
+    .textrow2
+    {
+        margin-top: 30px;
+        color:rgb(82, 145, 226);
+        font-weight: 500;
+
+    }
+
+    .row2btn
+    {
+        position: relative;
+        padding: 3px 18px 3px 18px;
+        border-radius: 5px;
+        background-color: aliceblue;
+        border: solid rgb(44, 120, 235);
+        color:rgb(44, 120, 235);
+        font-weight:600;
+        font-size: small;
+    }
+
+
+
     .row2 .col2
     {
         position: relative;
-        margin-left: 35px;
+        top: -140px;
+        margin-left:780px ;
     }
+
+    .col2heading
+    {
+        color:rgb(37, 108, 201);
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .bi-check-circle
+    {
+        position: relative;
+        margin-top: 20px;
+        color:rgb(44, 120, 235) ;
+    
+    }
+
+@media screen and (max-width:535px){
+
 
     .row1 .col1
     {
@@ -396,17 +363,59 @@ a{
     }
 
     
-    .element1, .element2, .element3, .element4, .element5, .element6 
-    {
-        position: relative;
-        margin: auto;
-        margin-top: 18px;
-        left:20px;
-        margin-bottom:10px ;
-        height: auto;
-        width: 120px;
-        
-    }
+    
+.element1, .element2, .element3, .element4, .element5, .element6 {
+
+    width: 200px;
+    height:120px;
+    border-style:solid;
+    border-color: rgb(56, 138, 231);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 25px 28px;
+
+    border-top-right-radius: 5px;
+    clip:rect(20px);
+  }
+ 
+  .element1
+  {
+      position: relative;
+        top: 15px; 
+        left:5px;
+  }
+  .element2
+  {
+      position: relative;
+      left: 180px;
+       top: -80px;
+  }
+
+  .element3
+  {
+    position: relative;
+    top: -70px; 
+    left:5px;
+  }
+  .element4
+  {
+    position: relative;
+    left: 180px;
+     top: -165px;
+  }
+  .element5
+  {
+    position: relative;
+    top: -155px; 
+    left:5px;
+  }
+  .element6
+  {
+    position: relative;
+    left: 180px;
+     top: -245px;
+  }
+
 
     .sthtext
     {
@@ -418,7 +427,20 @@ a{
     }
 
 
-    .headingText
+    
+    /* .row2 .col1
+    {
+        position: relative;
+        margin-top:130px;
+        margin-left:25px;
+    }
+    .row2 .col2
+    {
+        position: relative;
+        margin-left: 35px;
+    } */
+    
+    /* .headingText
     {
         margin: auto;
         margin-left: 25px;
@@ -431,14 +453,18 @@ a{
         margin: auto;
         left:20px;
         font-size: 12px;
-    }
+    } */
     .row1 .col2{
         margin: auto;
-        margin-top: -180px;
-        margin-left: 320px;
+        margin-top: 180px;
+        margin-left:200px;
     }
          
-    
+    .card1, .card2, .card3, .card4
+    {
+        width: 18rem;
+        height: max-content;
+    }
     .list-group-item
         {
             font-size:x-small ;
@@ -479,6 +505,7 @@ a{
         left:15px;
     }
 
+    
 }
 
 
@@ -968,7 +995,7 @@ a{
 @media screen and (min-width:771px) and (max-width:990px) {
 
     
-  
+   
     .row1 .col2
     {
         margin-top: -530px;
@@ -1060,6 +1087,7 @@ a{
         
     }
 
+    
     .row2img
     {
         margin-top: 18px;
@@ -1208,6 +1236,11 @@ a{
 
     }
 
+    .carousel-inner .btn
+    {
+        position: relative;
+        left: 85px;
+    }
     
 }
 
@@ -1216,255 +1249,275 @@ a{
 @media screen and (min-width:991px) and (max-width:1200px) 
 {
   
-    .my-carousel
-    {
-        margin-top: -80px;
-    }
 
-     
-    .hedingAn
-    {
-        position: relative;
-        top: 5px;
-        left:-45px;
-        font-size: 16px;
-    }
-
-    .hedingKon
-    {
-        position: relative;
-        top: 5px;
-        left:-85px;
-        font-size: 16px;
-    }
-
-
-    .linkss1
-    {
-        position: relative;
-        top: 20px;
-        font-size:10px;
-        margin-left: -65px;
         
+        .hedingAn
+        {
+            position: relative;
+            top: 5px;
+            left:-45px;
+            font-size: 16px;
+        }
+
+        .hedingKon
+        {
+            position: relative;
+            top: 5px;
+            left:-85px;
+            font-size: 16px;
+        }
+
+
+        .linkss1
+        {
+            position: relative;
+            top: 20px;
+            font-size:10px;
+            margin-left: -65px;
+            
+        
+        }
+
+        .linkss2
+        {
+            
+            position: relative;
+            top: 20px;
+            font-size:10px;
+            margin-left: 2px;
+            
+        }
+
+        .linkss3
+        {
+            
+            position: relative;
+            top: 20px;
+            font-size:10px;
+            margin-left:2px;
+        }
+        .Anthing
+        {
+            position: relative;
+            margin: auto;
+            top: 25px;
+            margin-left: -105px;
+            font-size:10px;
+            
+        }
+        .KonThing
+        {
+            position: relative;
+            margin: auto;
+            top: 25px;
+            margin-left: -135px;
+            padding: auto;
+            font-size:12px;
+        }
+
+        img.textimg{
+            position: relative;
+            /* margin-left: auto; */
+            left: -105px;
+            max-width: 500px;
+            
+
+        }
+        img.LOGO {
+            position: relative;
+            margin: auto;
+            /* left: 480px; */
+            margin-left: 60px;
+            width: 800px;
+
+        }
+        
+        .row1 .col1{
+            margin-top: 45px;
+            margin-left: -45px;
+        }
+
        
-    }
+        .element1, .element2, .element3, .element4, .element5, .element6 
+        {
+            margin: auto;
+            margin-top: 25px;
+            margin-left:35px;
+            margin-bottom:10px ;
+            height: auto;
+            width: 180px;
+            
+        }
 
-    .linkss2
-    {
+        .sthtext
+        {
+            margin: auto;
+            margin-left:10px;
+            margin-top:10px ;
+            font-size: 15px;;
+
+        }
+
         
-        position: relative;
-        top: 20px;
-        font-size:10px;
-        margin-left: 2px;
+        .headingText
+        {
+            margin: auto;
+            margin-left: 25px;
+            font-size:42px;
+
+        }
+        .randomText
+        {
+            margin: auto;
+            margin-left: 25px;
+            font-size: 15px;
+        }
         
-    }
+        .row1 .col2
+        {
+            position: relative;
+            margin-top: -560px;
+        }
+        .card1
+        {
+            position: relative;
+            margin: auto;
+            /* margin-left: -40px; */
+            margin-top: 28px;
+            width: 14rem;
+            height: max-content;
+        }
 
-    .linkss3
-    {
+        .card2
+        {  
+            position: relative;
+            margin: auto;
+            /* margin-left: -40px; */
+            width: 14rem;
+            height: max-content;
+            top: -463px;
+            
+        }
+
+        .card3
+        {
+            position: relative;
+            margin: auto;
         
-        position: relative;
-        top: 20px;
-        font-size:10px;
-        margin-left:2px;
-    }
-    .Anthing
-    {
-        position: relative;
-        margin: auto;
-        top: 25px;
-        margin-left: -105px;
-        font-size:10px;
+            top: -461px;
+            /* margin-left: -40px; */
+            width: 14rem;
+            height: max-content;
+        }
+
+        .card4
+        {
+            position: relative;
+            margin: auto;
+            top: -458px;
+            /* margin-left: -40px; */
+            width: 14rem;
+            height: max-content;
+        }
+
+        .list-group-item
+        {
+            font-size:small ;
+        }
+       
+        .greaterThan 
+        {
         
-    }
-    .KonThing
-    {
-        position: relative;
-        margin: auto;
-        top: 25px;
-        margin-left: -135px;
-        padding: auto;
-        font-size:12px;
-    }
+            display:none;
+        }
 
-    img.textimg{
-        position: relative;
-        /* margin-left: auto; */
-        left: -105px;
-        max-width: 500px;
+        .row2 .col1
+        {
+            position: relative;
+            top:250px ;
+            margin-left:185px
+        }
+        .row2 .col1 p
+        {
+
+            margin-top: 5px;
+            font-size: 20px;
+
+        }
+
+        .row2btn
+        {
+            
+            padding: 10px 24px 10px 24px;
+            border-radius: 5px;
+            
+        }
+
+        .row2img
+        {
+            margin-top: 18px;
+            width: 600px;
+            height: auto;
+        }
+
+        .row2heading
+        {
+            
+            font-size:42px;
+        }
+
+        .row2 .col2
+        {
+            
+            margin:auto;
+            margin-top: 480px;
+            margin-left: 85px;
+            
+        }
         
+        .row2 .col2 h6
+        {
+            font-size: 28px;
+        }
 
-    }
-    img.LOGO {
-        position: relative;
-        margin: auto;
-        /* left: 480px; */
-        margin-left: 60px;
-        width: 800px;
+        h6.col2heading
+        {
+            font-size: 35px;
+        }
 
-    }
-    
-    .row1 .col1{
-        margin-top: 45px;
-        margin-left: -45px;
-    }
+        .row2 .col2 p
+        {
+            font-size: 18px;
+            margin: auto;
+            
+        }
+          
+        .slnav
+        {
+            padding-left: 5px;
+            padding-right: -50px;
+        }
+        .my-carousel
+        {
+            margin-top: 30px;
+           
+        }
 
-    .element1, .element2, .element3, .element4, .element5, .element6 
-    {
-        margin: auto;
-        margin-top: 25px;
-        margin-left:35px;
-        margin-bottom:10px ;
-        height: auto;
-        width: 180px;
+        .carousel-inner {
+            
+            height: auto;
+            max-width: 100%;
+            
+            margin:auto;
+            
+            }
         
-    }
-
-    .sthtext
-    {
-        margin: auto;
-        margin-left:10px;
-        margin-top:10px ;
-        font-size: 15px;;
-
-    }
-
-    
-    .headingText
-    {
-        margin: auto;
-        margin-left: 25px;
-        font-size:42px;
-
-    }
-    .randomText
-    {
-        margin: auto;
-        margin-left: 25px;
-        font-size: 15px;
-    }
-    
-    .row1 .col2
-    {
-        position: relative;
-        margin-top: -560px;
-    }
-    .card1
-    {
-        position: relative;
-        margin: auto;
-        /* margin-left: -40px; */
-        margin-top: 28px;
-        width: 14rem;
-        height: max-content;
-    }
-
-    .card2
-    {  
-        position: relative;
-        margin: auto;
-        /* margin-left: -40px; */
-        width: 14rem;
-        height: max-content;
-        top: -463px;
-        
-    }
-
-    .card3
-    {
-        position: relative;
-        margin: auto;
-    
-        top: -461px;
-        /* margin-left: -40px; */
-        width: 14rem;
-        height: max-content;
-    }
-
-    .card4
-    {
-        position: relative;
-        margin: auto;
-        top: -458px;
-        /* margin-left: -40px; */
-        width: 14rem;
-        height: max-content;
-    }
-
-    .list-group-item
-    {
-        font-size:small ;
-    }
-    .greaterThan 
-    {
-    
-        display:none;
-    }
-
-    .row2 .col1
-    {
-        position: relative;
-        top:250px ;
-        margin-left:185px
-    }
-    .row2 .col1 p
-    {
-
-        margin-top: 5px;
-        font-size: 20px;
-
-    }
-
-    .row2btn
-    {
-        
-        padding: 10px 24px 10px 24px;
-        border-radius: 5px;
-        
-    }
-
-    .row2img
-    {
-        margin-top: 18px;
-        width: 600px;
-        height: auto;
-    }
-
-    .row2heading
-    {
-        
-        font-size:42px;
-    }
-
-    .row2 .col2
-    {
-        
-        margin:auto;
-        margin-top: 480px;
-        margin-left: 85px;
+      
         
     }
-    
-    .row2 .col2 h6
-    {
-        font-size: 28px;
-    }
 
-    h6.col2heading
-    {
-        font-size: 35px;
-    }
 
-    .row2 .col2 p
-    {
-        font-size: 18px;
-        margin: auto;
-        
-    }
-    
-    
-}
-
-@media screen and (min-width:1201px)and (max-width:1300px) {
+/* @media screen and (min-width:1201px)and (max-width:1300px) {
     
     
 
@@ -1498,7 +1551,7 @@ a{
     
 
 }
-
+ */
 
 
 #footerImageId{

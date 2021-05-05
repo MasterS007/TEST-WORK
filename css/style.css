@@ -352,9 +352,15 @@ a{
     
     }
 
+
+
 @media screen and (max-width:535px){
 
 
+    .social
+    {
+        display: none;
+    }
     .row1 .col1
     {
         position: relative;
@@ -453,7 +459,7 @@ a{
     {
         position: relative;
         margin-top:125px;
-        margin-left:45px;
+        margin-left:25px;
     }
 
      
@@ -474,10 +480,12 @@ a{
     .row2 .col2
     {
         position: relative;
-        left: 55px;
+        left: 8px;
         margin: auto;
         margin-top:10px;
     }
+
+   
 
     .carousel-indicators
     {
